@@ -1,0 +1,124 @@
+
+    .task {
+      width: 280px;
+      padding: 23px 16px;
+      background-color: white;
+      box-shadow: 0px 4px 6px rgba(54, 78, 126, 0.101545);
+      border-radius: 8px;
+      margin-bottom: 20px;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+      position: relative;
+    }
+
+    .task:hover {
+      cursor: pointer;
+      color: #635fc7;
+      transform: translateY(-2px);
+      box-shadow: 0px 6px 10px rgba(54, 78, 126, 0.2);
+    }
+
+    .dark .task {
+      background: #2b2c37;
+    }
+
+    .num-of-subtasks {
+      color: #828fa3;
+      margin-top: 8px;
+    }
+
+    .column {
+      min-width: 280px;
+    }
+
+    .col-name {
+      color: #828fa3;
+      margin-bottom: 24px;
+    }
+
+    .add-column-column {
+      background: linear-gradient(180deg, #E9EFFA 0%, rgba(233, 239, 250, 0.5) 100%);
+      color: #828FA3;
+      border-radius: 6px;
+      min-width: 280px;
+      margin-top: 39px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .dark .add-column-column {
+      background: linear-gradient(180deg, rgba(43, 44, 55, 0.25) 0%, rgba(43, 44, 55, 0.125) 100%);
+    }
+
+    .add-column-column:hover {
+      color: #635FC7;
+      transition: 0.3s;
+    }
+
+    .subtasks-container {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .subtask-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      cursor: pointer;
+    }
+
+    .subtask-checkbox {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #828fa3;
+      border-radius: 50%;
+      position: relative;
+    }
+
+    .subtask-checkbox.completed::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 8px;
+      height: 8px;
+      background-color: #635fc7;
+      border-radius: 50%;
+    }
+
+    .subtask-text.completed {
+      text-decoration: line-through;
+      opacity: 0.5;
+    }
+
+    .task-title-input {
+      border: none;
+      outline: none;
+      width: 100%;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 19px;
+      font-family: "Plus Jakarta Sans", sans-serif;
+    }
+
+    .task-title-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .view-task-icon {
+      cursor: pointer;
+      height: 16px;
+    }
+
+    .edit-task-icon {
+      cursor: pointer;
+      height: 

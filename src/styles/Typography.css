@@ -1,0 +1,36 @@
+.heading-XL {
+      font-weight: bold;
+      font-size: 28px; /* Ajustement de la taille */
+      line-height: 34px; /* Ajustement de l'espacement */
+    }
+
+    .heading-L {
+      font-weight: bold;
+      font-size: 22px; /* Ajustement de la taille */
+      line-height: 28px; /* Ajustement de l'espacement */
+    }
+
+    .heading-M {
+      font-weight: bold;
+      font-size: 17px; /* Ajustement de la taille */
+      line-height: 21px; /* Ajustement de l'espacement */
+    }
+
+    .heading-S {
+      font-weight: bold;
+      font-size: 14px; /* Ajustement de la taille */
+      line-height: 17px; /* Ajustement de l'espacement */
+      letter-spacing: 2.4px;
+    }
+
+    .text-L {
+      font-weight: 500;
+      font-size: 15px; /* Ajustement de la taille */
+      line-height: 25px; /* Ajustement de l'espacement */
+    }
+
+    .text-M {
+      font-weight: bold;
+      font-size: 14px; /* Ajustement de la taille */
+      line-height: 17px; /* Ajustement de l'espacement */
+    }
